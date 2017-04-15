@@ -13,7 +13,7 @@ public class Pedido {
     Date fechaPeticion;
     Date fechaPrevista;
     Estados estado;
-    Producto producto;
+    //Producto producto;
     Cliente cliente;
 
     private static class Cliente {

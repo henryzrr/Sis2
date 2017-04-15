@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="421.0" prefWidth="481.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RegistroEmpleadoController">
+   <children>
+      <Label fx:id="titNombre" layoutX="52.0" layoutY="79.0" text="NOMBRE COMPLETO" />
+      <Label fx:id="titDireccion" layoutX="59.0" layoutY="211.0" text="DIRECCIÓN EXACTA" />
+      <Label fx:id="titTelefono" layoutX="108.0" layoutY="167.0" text="TELÉFONO" />
+      <Label fx:id="titCi" layoutX="146.0" layoutY="118.0" text="C.I" />
+      <Label fx:id="titulo" layoutX="153.0" layoutY="14.0" text="REGISTRO EMPLEADOS">
+         <font>
+            <Font size="17.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <TextField fx:id="tfNombre" layoutX="226.0" layoutY="75.0" />
+      <TextField fx:id="tfCi" layoutX="226.0" layoutY="114.0" />
+      <TextField fx:id="tfTelefono" layoutX="226.0" layoutY="163.0" />
+      <TextField fx:id="tfDireccion" layoutX="226.0" layoutY="213.0" />
+      <Button fx:id="btnRegistrar" layoutX="287.0" layoutY="353.0" mnemonicParsing="false" onAction="#registrar" text="REGISTRAR EMPLEADO" />
+   </children>
+</AnchorPane>
